@@ -1,4 +1,4 @@
-﻿namespace SampleExe
+﻿namespace SampleOldExe
 {
     class Program
     {
