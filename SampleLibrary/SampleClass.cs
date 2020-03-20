@@ -4,9 +4,9 @@ namespace SampleLibrary
 {
     public class SampleClass
     {
-        public string ToLowerInvariant(string text)
+        public string ToUpperInvariant(string text)
         {
-            return text.ToLowerInvariant();
+            return text.ToUpperInvariant();
         }
 
         public string Inverse(string text)
