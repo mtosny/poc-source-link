@@ -1,0 +1,5 @@
+// create snupkg and nupkg
+dotnet pack SampleLibrary.csproj -c Debug -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg
+
+// publish nugets to local BaGet server (https://github.com/loic-sharma/BaGet)
+dotnet nuget push -s http://localhost:5000/v3/index.json -k 123 SampleLibrary.1.0.0.nupkg
